@@ -1,0 +1,15 @@
+{
+  "name": "hexly-site",
+  "version": "1.0.0",
+  "description": "Hexly Public Site",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nuxt",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "narfdre",
+  "license": "ISC",
+  "dependencies": {
+    "nuxt": "^1.4.0"
+  }
+}
