@@ -1,8 +1,23 @@
 <template>
   <div>
-    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark -light" id="">
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
       <div class="container">
-        <a class="navbar-brand" href="index.html">Hexly</a>
+        <a class="navbar-brand" href="index.html">Raptor.</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="oi oi-menu"></span> Menu
+        </button>
+
+        <div class="collapse navbar-collapse" id="ftco-nav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="domain.html" class="nav-link">Domain</a></li>
+            <li class="nav-item"><a class="nav-link" href="hosting.html">Hosting</a></li>
+            <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
+            <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+            <li class="nav-item cta"><a href="contact.html" class="nav-link"><span>Get started</span></a></li>
+          </ul>
+        </div>
       </div>
     </nav>
       <!-- END nav -->
@@ -14,15 +29,21 @@
         <div class="container-fluid">
           <div class="slider-text d-md-flex align-items-center" data-scrollax-parent="true">
 
-            <div class="one-forth pr-md-4 align-self-md-center" data-scrollax=" properties: { translateY: '70%' }">
-              <h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Direct Sales, <br> Meet Serverless!</h1>
-              <p class="mb-md-5 mb-sm-3" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Gone are the days of paying for big fat servers! ;) Scale with your customers.</p>
-              <p data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"><a href="#" class="btn btn-primary px-4 py-3">Request a demo</a></p>
+            <div class="one-forth pr-md-4 ftco-animate align-self-md-center" data-scrollax=" properties: { translateY: '70%' }">
+              <h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Design. <br> Development. <br> Hosting.</h1>
+              <p class="mb-md-5 mb-sm-3" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+              <p data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"><a href="#" class="btn btn-primary px-4 py-3">Get started</a></p>
             </div>
             <div class="one-half align-self-md-end align-self-sm-center">
-              <div class="">
+              <div class="slider-carousel owl-carousel">
                 <div class="item">
-                  <img src="/images/dashboard_full_1.png" class="img-fluid img" alt="">
+                  <img src="images/dashboard_full_1.png" class="img-fluid img"alt="">
+                </div>
+                <div class="item">
+                  <img src="images/dashboard_full_2.png" class="img-fluid img"alt="">
+                </div>
+                <div class="item">
+                  <img src="images/dashboard_full_3.png" class="img-fluid img"alt="">
                 </div>
               </div>
             </div>
@@ -30,61 +51,62 @@
         </div>
       </div>
       
-      <section class=" bg-light">
+      <section class="ftco-section bg-light">
         <div class="container">
           <div class="row justify-content-center mb-5 mt-5">
-            <div class="col-md-7 text-center heading-section ">
-              <span class="subheading">Request A Demo</span>
-              <h2 class="mb-4">See what we are all about</h2>
-              <p>We will contact you with more information about what makes Hexly awesome!</p>
+            <div class="col-md-7 text-center heading-section ftco-animate">
+              <span class="subheading">Get domain</span>
+              <h2 class="mb-4">Get A Domain Name</h2>
+              <p>With FREE Email, DNS, Theft Protection, and other features</p>
             </div>
           </div>
           <div class="row justify-content-center">
-            <div class="col-md-8 ">
+            <div class="col-md-8 ftco-animate">
               <form action="#" class="domain-form">
                 <div class="form-group d-md-flex">
-                  <input type="text" class="form-control px-4" placeholder="Enter your email address...">
-                  <input type="submit" class="search-domain btn btn-primary px-5" value="Request Demo!">
+                  <input type="text" class="form-control px-4" placeholder="Enter your domain name...">
+                  <input type="submit" class="search-domain btn btn-primary px-5" value="Search Domain">
                 </div>
               </form>
+              <p class="domain-price text-center"><span><small>.com</small>9.75</span> <span><small>.net</small>9.90</span> <span><small>.biz</small>$8.95</span> <span><small>.me</small>$7.95</span></p>
             </div>
           </div>
         </div>
       </section>
     
-      <section class=" services-section">
+      <section class="ftco-section services-section">
         <div class="container">
           <div class="row justify-content-center mb-5 pb-5">
-            <div class="col-md-7 text-center heading-section ">
+            <div class="col-md-7 text-center heading-section ftco-animate">
               <span class="subheading">Services</span>
               <h2 class="mb-4">Why choose us</h2>
             </div>
           </div>
           <div class="row">
-            <div class="col-md-4 d-flex align-self-stretch ">
+            <div class="col-md-4 d-flex align-self-stretch ftco-animate">
               <div class="media block-6 services d-block text-center">
-                <div class="d-flex justify-content-center"><div class="icon"><span class="ion-ios-analytics"></span></div></div>
+                <div class="d-flex justify-content-center"><div class="icon"><span class="flaticon-guarantee"></span></div></div>
                 <div class="media-body p-2 mt-3">
-                  <h3 class="heading">Insights</h3>
-                  <p>Get Extra insights into your comp plan.</p>
+                  <h3 class="heading">100% Uptime Guarantee</h3>
+                  <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
                 </div>
               </div>      
             </div>
-            <div class="col-md-4 d-flex align-self-stretch ">
+            <div class="col-md-4 d-flex align-self-stretch ftco-animate">
               <div class="media block-6 services d-block text-center">
-                <div class="d-flex justify-content-center"><div class="icon"><span class="ion-ios-podium"></span></div></div>
+                <div class="d-flex justify-content-center"><div class="icon"><span class="flaticon-shield"></span></div></div>
                 <div class="media-body p-2 mt-3">
-                  <h3 class="heading">Technology</h3>
-                  <p>We manage your website traffic dynamically and scale on demand to save you money and meet your distributors needs.</p>
+                  <h3 class="heading">Safe and Secured</h3>
+                  <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
                 </div>
               </div>    
             </div>
-            <div class="col-md-4 d-flex align-self-stretch ">
+            <div class="col-md-4 d-flex align-self-stretch ftco-animate">
               <div class="media block-6 services d-block text-center">
-                <div class="d-flex justify-content-center"><div class="icon"><span class="ion-ios-cog"></span></div></div>
+                <div class="d-flex justify-content-center"><div class="icon"><span class="flaticon-support"></span></div></div>
                 <div class="media-body p-2 mt-3">
-                  <h3 class="heading">Custom</h3>
-                  <p>Your backoffice will not feel off the shelf</p>
+                  <h3 class="heading">Our Dedicated Support</h3>
+                  <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
                 </div>
               </div>      
             </div>
@@ -92,16 +114,16 @@
         </div>
       </section>
 
-      <section class=" bg-light">
+      <section class="ftco-section bg-light">
         <div class="container">
           <div class="row justify-content-center mb-5 pb-5">
-            <div class="col-md-7 text-center heading-section ">
+            <div class="col-md-7 text-center heading-section ftco-animate">
               <span class="subheading">Pricing Plans</span>
               <h2 class="mb-4">Our Best Pricing</h2>
             </div>
           </div>
           <div class="row">
-            <div class="col-md-3 ">
+            <div class="col-md-3 ftco-animate">
               <div class="block-7">
                 <div class="text-center">
                 <h2 class="heading">Free</h2>
@@ -120,7 +142,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-3 ">
+            <div class="col-md-3 ftco-animate">
               <div class="block-7">
                 <div class="text-center">
                 <h2 class="heading">Startup</h2>
@@ -139,7 +161,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-3 ">
+            <div class="col-md-3 ftco-animate">
               <div class="block-7">
                 <div class="text-center">
                 <h2 class="heading">Premium</h2>
@@ -158,7 +180,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-3 ">
+            <div class="col-md-3 ftco-animate">
               <div class="block-7">
                 <div class="text-center">
                 <h2 class="heading">Pro</h2>
@@ -181,10 +203,10 @@
         </div>
       </section>
 
-      <section class="  img" id="section-counter" style="background-image: url(images/bg_1.jpg);">
+      <section class="ftco-section ftco-counter img" id="section-counter" style="background-image: url(images/bg_1.jpg);">
         <div class="container">
           <div class="row justify-content-center mb-5 pb-5">
-            <div class="col-md-7 text-center heading-section heading-section-white ">
+            <div class="col-md-7 text-center heading-section heading-section-white ftco-animate">
               <h2 class="mb-4">Some fun facts</h2>
               <span class="subheading">More than 100,000 websites hosted</span>
             </div>
@@ -192,7 +214,7 @@
           <div class="row justify-content-center">
             <div class="col-md-10">
               <div class="row">
-                <div class="col-md-3 d-flex justify-content-center counter-wrap ">
+                <div class="col-md-3 d-flex justify-content-center counter-wrap ftco-animate">
                   <div class="block-18 text-center">
                     <div class="text">
                       <strong class="number" data-number="2000">0</strong>
@@ -200,7 +222,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-md-3 d-flex justify-content-center counter-wrap ">
+                <div class="col-md-3 d-flex justify-content-center counter-wrap ftco-animate">
                   <div class="block-18 text-center">
                     <div class="text">
                       <strong class="number" data-number="100">0</strong>
@@ -208,7 +230,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-md-3 d-flex justify-content-center counter-wrap ">
+                <div class="col-md-3 d-flex justify-content-center counter-wrap ftco-animate">
                   <div class="block-18 text-center">
                     <div class="text">
                       <strong class="number" data-number="32000">0</strong>
@@ -216,7 +238,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-md-3 d-flex justify-content-center counter-wrap ">
+                <div class="col-md-3 d-flex justify-content-center counter-wrap ftco-animate">
                   <div class="block-18 text-center">
                     <div class="text">
                       <strong class="number" data-number="31998">0</strong>
@@ -230,18 +252,18 @@
         </div>
       </section>
 
-      <section class=" testimony-section bg-light">
+      <section class="ftco-section testimony-section bg-light">
         <div class="container">
           <div class="row justify-content-center mb-5 pb-5">
-            <div class="col-md-7 text-center heading-section ">
+            <div class="col-md-7 text-center heading-section ftco-animate">
               <span class="subheading">Customer Says</span>
               <h2 class="mb-4">Our satisfied customer says</h2>
               <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in</p>
             </div>
           </div>
-          <div class="row ">
+          <div class="row ftco-animate">
             <div class="col-md-12">
-              <div class="carousel-testimony">
+              <div class="carousel-testimony owl-carousel ftco-owl">
                 <div class="item">
                   <div class="testimony-wrap p-4 pb-5">
                     <div class="user-img mb-5" style="background-image: url(images/person_1.jpg)">
@@ -318,17 +340,17 @@
         </div>
       </section>
 
-      <section class="">
+      <section class="ftco-section">
         <div class="container">
           <div class="row justify-content-center mb-5 pb-5">
-            <div class="col-md-7 text-center heading-section ">
+            <div class="col-md-7 text-center heading-section ftco-animate">
               <span class="subheading">Services</span>
               <h2 class="mb-4">How it works</h2>
             </div>
           </div>
           <div class="row">
-            <div class="col-md-12 nav-link-wrap mb-5 pb-md-5 pb-sm-1 ">
-              <div class="nav  nav-pills justify-content-center text-center" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+            <div class="col-md-12 nav-link-wrap mb-5 pb-md-5 pb-sm-1 ftco-animate">
+              <div class="nav ftco-animate nav-pills justify-content-center text-center" id="v-pills-tab" role="tablist" aria-orientation="vertical">
                 <a class="nav-link active" id="v-pills-nextgen-tab" data-toggle="pill" href="#v-pills-nextgen" role="tab" aria-controls="v-pills-nextgen" aria-selected="true">Next gen VPS</a>
 
                 <a class="nav-link" id="v-pills-performance-tab" data-toggle="pill" href="#v-pills-performance" role="tab" aria-controls="v-pills-performance" aria-selected="false">Performance</a>
@@ -336,9 +358,9 @@
                 <a class="nav-link" id="v-pills-effect-tab" data-toggle="pill" href="#v-pills-effect" role="tab" aria-controls="v-pills-effect" aria-selected="false">Effectiveness</a>
               </div>
             </div>
-            <div class="col-md-12 align-items-center ">
+            <div class="col-md-12 align-items-center ftco-animate">
               
-              <div class="tab-content " id="v-pills-tabContent">
+              <div class="tab-content ftco-animate" id="v-pills-tabContent">
 
                 <div class="tab-pane fade show active" id="v-pills-nextgen" role="tabpanel" aria-labelledby="v-pills-nextgen-tab">
                   <div class="d-md-flex">
@@ -384,11 +406,11 @@
         </div>
       </section>
 
-      <section class="-parallax">
+      <section class="ftco-section-parallax">
         <div class="parallax-img d-flex align-items-center">
           <div class="container">
             <div class="row d-flex justify-content-center">
-              <div class="col-md-7 text-center heading-section heading-section-white ">
+              <div class="col-md-7 text-center heading-section heading-section-white ftco-animate">
                 <h2>Subcribe to our Newsletter</h2>
                 <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in</p>
                 <div class="row d-flex justify-content-center mt-5">
@@ -407,17 +429,17 @@
         </div>
       </section>
 
-      <section class=" bg-light">
+      <section class="ftco-section bg-light">
         <div class="container">
           <div class="row justify-content-center mb-5 pb-5">
-            <div class="col-md-7 text-center heading-section ">
+            <div class="col-md-7 text-center heading-section ftco-animate">
               <span class="subheading">Blog</span>
               <h2>Recent Blog</h2>
               <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in</p>
             </div>
           </div>
           <div class="row">
-            <div class="col-md-4 ">
+            <div class="col-md-4 ftco-animate">
               <div class="blog-entry">
                 <a href="blog-single.html" class="block-20" style="background-image: url('images/image_1.jpg');">
                 </a>
@@ -431,7 +453,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-4 ">
+            <div class="col-md-4 ftco-animate">
               <div class="blog-entry" data-aos-delay="100">
                 <a href="blog-single.html" class="block-20" style="background-image: url('images/image_2.jpg');">
                 </a>
@@ -445,7 +467,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-4 ">
+            <div class="col-md-4 ftco-animate">
               <div class="blog-entry" data-aos-delay="200">
                 <a href="blog-single.html" class="block-20" style="background-image: url('images/image_3.jpg');">
                 </a>
@@ -463,19 +485,19 @@
         </div>
       </section>
 
-      <footer class=" -dark ">
+      <footer class="ftco-footer ftco-bg-dark ftco-section">
         <div class="container">
           <div class="row mb-5">
             <div class="col-md">
-              <div class="-widget mb-4">
-                <h2 class="-2">Hexly.</h2>
+              <div class="ftco-footer-widget mb-4">
+                <h2 class="ftco-heading-2">Raptor.</h2>
                 <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
                 <p class="mt-4"><a href="#" class="btn btn-primary p-3">Get in touch</a></p>
               </div>
             </div>
             <div class="col-md">
-              <div class="-widget mb-4 ml-md-5">
-                <h2 class="-2">Unseful Links</h2>
+              <div class="ftco-footer-widget mb-4 ml-md-5">
+                <h2 class="ftco-heading-2">Unseful Links</h2>
                 <ul class="list-unstyled">
                   <li><a href="#" class="py-2 d-block">Servers</a></li>
                   <li><a href="#" class="py-2 d-block">Windos Hosting</a></li>
@@ -487,8 +509,8 @@
               </div>
             </div>
             <div class="col-md">
-              <div class="-widget mb-4">
-                <h2 class="-2">Navigational</h2>
+              <div class="ftco-footer-widget mb-4">
+                <h2 class="ftco-heading-2">Navigational</h2>
                 <ul class="list-unstyled">
                   <li><a href="#" class="py-2 d-block">Home</a></li>
                   <li><a href="#" class="py-2 d-block">Domain</a></li>
@@ -500,7 +522,7 @@
               </div>
             </div>
             <div class="col-md">
-              <div class="-widget mb-4">
+              <div class="ftco-footer-widget mb-4">
                 <div class="block-23 mb-3">
                   <ul>
                     <li><span class="icon icon-map-marker"></span><span class="text">203 Fake St. Mountain View, San Francisco, California, USA</span></li>
@@ -509,10 +531,10 @@
                     <li><span class="icon icon-clock-o"></span><span class="text">Saturday &mdash; Sunday 8:00am - 5:00pm</span></li>
                   </ul>
                 </div>
-                <ul class="-social list-unstyled float-md-left float-lft mt-5">
-                  <li class=""><a href="#"><span class="icon-twitter"></span></a></li>
-                  <li class=""><a href="#"><span class="icon-facebook"></span></a></li>
-                  <li class=""><a href="#"><span class="icon-instagram"></span></a></li>
+                <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
+                  <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+                  <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+                  <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
                 </ul>
               </div>
             </div>
@@ -533,5 +555,6 @@
 <style>
 .logo {
   font-family: 'Pacifico';
+  background-image: linear-gradient(to right top, #fa9f61, #ff4a9d);
 }
 </style>

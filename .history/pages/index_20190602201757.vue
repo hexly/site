@@ -16,13 +16,19 @@
 
             <div class="one-forth pr-md-4 align-self-md-center" data-scrollax=" properties: { translateY: '70%' }">
               <h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Direct Sales, <br> Meet Serverless!</h1>
-              <p class="mb-md-5 mb-sm-3" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Gone are the days of paying for big fat servers! ;) Scale with your customers.</p>
-              <p data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"><a href="#" class="btn btn-primary px-4 py-3">Request a demo</a></p>
+              <p class="mb-md-5 mb-sm-3" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+              <p data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"><a href="#" class="btn btn-primary px-4 py-3">Get started</a></p>
             </div>
             <div class="one-half align-self-md-end align-self-sm-center">
-              <div class="">
+              <div class="slider-carousel owl-carousel">
                 <div class="item">
-                  <img src="/images/dashboard_full_1.png" class="img-fluid img" alt="">
+                  <img src="images/dashboard_full_1.png" class="img-fluid img" alt="">
+                </div>
+                <div class="item">
+                  <img src="images/dashboard_full_2.png" class="img-fluid img" alt="">
+                </div>
+                <div class="item">
+                  <img src="images/dashboard_full_3.png" class="img-fluid img" alt="">
                 </div>
               </div>
             </div>
@@ -63,28 +69,28 @@
           <div class="row">
             <div class="col-md-4 d-flex align-self-stretch ">
               <div class="media block-6 services d-block text-center">
-                <div class="d-flex justify-content-center"><div class="icon"><span class="ion-ios-analytics"></span></div></div>
+                <div class="d-flex justify-content-center"><div class="icon"><span class="flaticon-guarantee"></span></div></div>
                 <div class="media-body p-2 mt-3">
-                  <h3 class="heading">Insights</h3>
-                  <p>Get Extra insights into your comp plan.</p>
+                  <h3 class="heading">100% Uptime Guarantee</h3>
+                  <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
                 </div>
               </div>      
             </div>
             <div class="col-md-4 d-flex align-self-stretch ">
               <div class="media block-6 services d-block text-center">
-                <div class="d-flex justify-content-center"><div class="icon"><span class="ion-ios-podium"></span></div></div>
+                <div class="d-flex justify-content-center"><div class="icon"><span class="flaticon-shield"></span></div></div>
                 <div class="media-body p-2 mt-3">
-                  <h3 class="heading">Technology</h3>
-                  <p>We manage your website traffic dynamically and scale on demand to save you money and meet your distributors needs.</p>
+                  <h3 class="heading">Safe and Secured</h3>
+                  <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
                 </div>
               </div>    
             </div>
             <div class="col-md-4 d-flex align-self-stretch ">
               <div class="media block-6 services d-block text-center">
-                <div class="d-flex justify-content-center"><div class="icon"><span class="ion-ios-cog"></span></div></div>
+                <div class="d-flex justify-content-center"><div class="icon"><span class="flaticon-support"></span></div></div>
                 <div class="media-body p-2 mt-3">
-                  <h3 class="heading">Custom</h3>
-                  <p>Your backoffice will not feel off the shelf</p>
+                  <h3 class="heading">Our Dedicated Support</h3>
+                  <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
                 </div>
               </div>      
             </div>
@@ -241,7 +247,7 @@
           </div>
           <div class="row ">
             <div class="col-md-12">
-              <div class="carousel-testimony">
+              <div class="carousel-testimony owl-carousel ">
                 <div class="item">
                   <div class="testimony-wrap p-4 pb-5">
                     <div class="user-img mb-5" style="background-image: url(images/person_1.jpg)">

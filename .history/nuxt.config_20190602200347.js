@@ -34,22 +34,7 @@ module.exports = {
       { rel: 'stylesheet', href: '/css/style.css' }
     ],
     script: [
-      { src: '/js/jquery.min.js'},
-      { src: '/js/jquery-migrate-3.0.1.min.js'},
-      { src: '/js/popper.min.js'},
-      { src: '/js/bootstrap.min.js'},
-      { src: '/js/jquery.easing.1.3.js'},
-      { src: '/js/jquery.waypoints.min.js'},
-      { src: '/js/jquery.stellar.min.js'},
-      { src: '/js/owl.carousel.min.js'},
-      { src: '/js/jquery.magnific-popup.min.js'},
       
-      { src: '/js/jquery.animateNumber.min.js'},
-      { src: '/js/bootstrap-datepicker.js'},
-      { src: '/js/scrollax.min.js'},
-      { src: 'https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false'},
-      { src: '/js/google-map.js'},
-      { src: '/js/main.js'}
     ]
   }
 }

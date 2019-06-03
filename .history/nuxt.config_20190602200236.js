@@ -43,7 +43,7 @@ module.exports = {
       { src: '/js/jquery.stellar.min.js'},
       { src: '/js/owl.carousel.min.js'},
       { src: '/js/jquery.magnific-popup.min.js'},
-      
+      { src: '/js/aos.js'},
       { src: '/js/jquery.animateNumber.min.js'},
       { src: '/js/bootstrap-datepicker.js'},
       { src: '/js/scrollax.min.js'},

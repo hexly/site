@@ -43,9 +43,10 @@ module.exports = {
       { src: '/js/jquery.stellar.min.js'},
       { src: '/js/owl.carousel.min.js'},
       { src: '/js/jquery.magnific-popup.min.js'},
-      
+      { src: '/js/aos.js'},
       { src: '/js/jquery.animateNumber.min.js'},
       { src: '/js/bootstrap-datepicker.js'},
+      { src: '/js/jquery.timepicker.min.js'},
       { src: '/js/scrollax.min.js'},
       { src: 'https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false'},
       { src: '/js/google-map.js'},

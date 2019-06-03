@@ -63,16 +63,16 @@
           <div class="row">
             <div class="col-md-4 d-flex align-self-stretch ">
               <div class="media block-6 services d-block text-center">
-                <div class="d-flex justify-content-center"><div class="icon"><span class="ion-ios-analytics"></span></div></div>
+                <div class="d-flex justify-content-center"><div class="icon"><span class="flaticon-guarantee"></span></div></div>
                 <div class="media-body p-2 mt-3">
-                  <h3 class="heading">Insights</h3>
-                  <p>Get Extra insights into your comp plan.</p>
+                  <h3 class="heading">100% Uptime Guarantee</h3>
+                  <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
                 </div>
               </div>      
             </div>
             <div class="col-md-4 d-flex align-self-stretch ">
               <div class="media block-6 services d-block text-center">
-                <div class="d-flex justify-content-center"><div class="icon"><span class="ion-ios-podium"></span></div></div>
+                <div class="d-flex justify-content-center"><div class="icon"><span class="flaticon-shield"></span></div></div>
                 <div class="media-body p-2 mt-3">
                   <h3 class="heading">Technology</h3>
                   <p>We manage your website traffic dynamically and scale on demand to save you money and meet your distributors needs.</p>
@@ -81,10 +81,10 @@
             </div>
             <div class="col-md-4 d-flex align-self-stretch ">
               <div class="media block-6 services d-block text-center">
-                <div class="d-flex justify-content-center"><div class="icon"><span class="ion-ios-cog"></span></div></div>
+                <div class="d-flex justify-content-center"><div class="icon"><span class="flaticon-support"></span></div></div>
                 <div class="media-body p-2 mt-3">
-                  <h3 class="heading">Custom</h3>
-                  <p>Your backoffice will not feel off the shelf</p>
+                  <h3 class="heading">Our Dedicated Support</h3>
+                  <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
                 </div>
               </div>      
             </div>
@@ -241,7 +241,7 @@
           </div>
           <div class="row ">
             <div class="col-md-12">
-              <div class="carousel-testimony">
+              <div class="carousel-testimony owl-carousel ">
                 <div class="item">
                   <div class="testimony-wrap p-4 pb-5">
                     <div class="user-img mb-5" style="background-image: url(images/person_1.jpg)">
