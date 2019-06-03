@@ -8279,7 +8279,8 @@ textarea.form-control {
     padding-bottom: 2em;
     position: relative; }
   .testimony-section .item {
-    margin-top: 55px;
+    width: 28%;
+    margin: 35px;
   }
 
 .testimony-wrap {

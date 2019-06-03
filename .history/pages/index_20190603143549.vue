@@ -3,7 +3,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark -light" id="">
       <div class="container">
         <a class="navbar-brand" href="index.html">
-          <img src="/logo.png" style="width: 45px; margin-right: 15px;"/>
+          <img src="/logo.png" style="width: 45px; margin-right: 25px;"/>
           Hexly
         </a>
       </div>
@@ -208,6 +208,29 @@
                       <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt voluptate, quibusdam sunt iste dolores consequatur</p>
                     </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="-parallax">
+        <div class="parallax-img d-flex align-items-center">
+          <div class="container">
+            <div class="row d-flex justify-content-center">
+              <div class="col-md-7 text-center heading-section heading-section-white ">
+                <h2>Subcribe to our Newsletter</h2>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in</p>
+                <div class="row d-flex justify-content-center ">
+                  <div class="col-md-6">
+                    <form action="#" class="subscribe-form">
+                      <div class="form-group">
+                        <span class="icon icon-paper-plane"></span>
+                        <input type="text" class="form-control" placeholder="Enter email address">
+                      </div>
+                    </form>
                   </div>
                 </div>
               </div>
