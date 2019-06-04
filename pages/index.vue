@@ -46,7 +46,7 @@
             <div class="col-md-8 ">
               <link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css" />
               <form action="https://hexly.us20.list-manage.com/subscribe/post?u=19b1d9d365a0b84ef5602d975&amp;id=44d5494b33" class="validate domain-form" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" novalidate>
-                <div class="form-group d-md-flex">
+                <div class="form-group d-md-flex" style="white-space: ">
                   <div id="mc_embed_signup_scroll">
                     <input type="email" value="" name="EMAIL" class="email form-control px-4" id="mce-EMAIL" placeholder="email address" required style="display: inline-block;">
                     <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
