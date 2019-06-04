@@ -215,7 +215,7 @@
           </div>
         </div>
       </section>
-      <footer class=" -dark ">
+      <footer class="mt-5">
         <div class="container">
           <div class="row mb-5">
             <div class="col-md">

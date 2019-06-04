@@ -7477,8 +7477,8 @@ h1, h2, h3, h4, h5,
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fa9f61', endColorstr='#ff4a9d', GradientType=1 ); }
   .hero-wrap .circle-bg:after {
     position: absolute;
-    top: 40%;
-    left: 30%;
+    top: 0%;
+    left: 70%;
     content: '';
     opacity: 1;
     width: 200px;
@@ -7490,8 +7490,8 @@ h1, h2, h3, h4, h5,
     border-radius: 50%; }
   .hero-wrap .circle-bg:before {
     position: absolute;
-    top: 20%;
-    right: 30%;
+    top: 80%;
+    right: 70%;
     content: '';
     opacity: 1;
     width: 120px;
@@ -7503,8 +7503,8 @@ h1, h2, h3, h4, h5,
     border-radius: 50%; }
   .hero-wrap .circle-bg-2:after {
     position: absolute;
-    bottom: 10%;
-    right: 2%;
+    bottom: 70%;
+    right: 85%;
     content: '';
     opacity: 1;
     width: 150px;
@@ -7516,8 +7516,8 @@ h1, h2, h3, h4, h5,
     border-radius: 50%; }
   .hero-wrap .circle-bg-2:before {
     position: absolute;
-    top: -2%;
-    left: 7%;
+    top: 50%;
+    left: 93%;
     content: '';
     opacity: 1;
     width: 100px;
