@@ -21,10 +21,11 @@
               Direct Sales,
               <br>Meet Serverless!
             </h1>
-            <p class="mb-md-5 mb-sm-3"
-            >Gone are the days of paying for idle servers! Effortlessly scale to meet the demand of your customers.</p>
+            <p
+              class="mb-md-5 mb-sm-3"
+            >Gone are the days of paying for idle servers! Effortlessly scale to meet the demand of your distributors and customers.</p>
             <p>
-              <a href="#" class="btn btn-primary px-4 py-3">Request a demo</a>
+              <a href="#" class="btn btn-primary px-4 py-3">Request a Demo</a>
             </p>
           </div>
           <div class="one-half align-self-sm-center">
@@ -62,7 +63,10 @@
                 target="_blank"
                 novalidate
               >
-                <div class="form-group d-md-flex" style="width: 100%; margin: auto; max-width: 550px;">
+                <div
+                  class="form-group d-md-flex"
+                  style="width: 100%; margin: auto; max-width: 550px;"
+                >
                   <div id="mc_embed_signup_scroll" style="text-align: center; width: 100%;">
                     <input
                       type="email"
@@ -70,7 +74,7 @@
                       name="EMAIL"
                       class="email form-control px-4"
                       id="mce-EMAIL"
-                      placeholder="email address"
+                      placeholder="email"
                       required
                       style="display: inline-block;"
                     >
@@ -114,38 +118,38 @@
             <div class="media block-6 services d-block text-center">
               <div class="d-flex justify-content-center">
                 <div class="icon">
+                  <span class="ion-ios-podium"></span>
+                </div>
+              </div>
+              <div class="media-body p-2 mt-3">
+                <h3 class="heading">Tech</h3>
+                <p>We manage your site traffic by dynamically scaling to meet demand - saving you money and headache.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 d-flex align-self-stretch">
+            <div class="media block-6 services d-block text-center">
+              <div class="d-flex justify-content-center">
+                <div class="icon">
+                  <span class="ion-ios-color-wand"></span>
+                </div>
+              </div>
+              <div class="media-body p-2 mt-3">
+                <h3 class="heading">Innovation</h3>
+                <p>Bring tools and features to your field that will set you apart and help you build and keep momentum in your business.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 d-flex align-self-stretch">
+            <div class="media block-6 services d-block text-center">
+              <div class="d-flex justify-content-center">
+                <div class="icon">
                   <span class="ion-ios-analytics"></span>
                 </div>
               </div>
               <div class="media-body p-2 mt-3">
                 <h3 class="heading">Insights</h3>
-                <p>Get Extra insights into your comp plan.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 d-flex align-self-stretch">
-            <div class="media block-6 services d-block text-center">
-              <div class="d-flex justify-content-center">
-                <div class="icon">
-                  <span class="ion-ios-podium"></span>
-                </div>
-              </div>
-              <div class="media-body p-2 mt-3">
-                <h3 class="heading">Technology</h3>
-                <p>We manage your website traffic dynamically and scale on demand to save you money and meet your distributors needs.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 d-flex align-self-stretch">
-            <div class="media block-6 services d-block text-center">
-              <div class="d-flex justify-content-center">
-                <div class="icon">
-                  <span class="ion-ios-cog"></span>
-                </div>
-              </div>
-              <div class="media-body p-2 mt-3">
-                <h3 class="heading">Custom</h3>
-                <p>Your backoffice can be yours</p>
+                <p>Gain insights into your commission plan and drive the results that you want.</p>
               </div>
             </div>
           </div>
@@ -158,7 +162,6 @@
           <div class="col-md-7 text-center heading-section">
             <!--<span class="subheading">Customers Say</span>-->
             <h2 class="mb-4">Our satisfied customers say</h2>
-            <p>Do we need text here?</p>
           </div>
         </div>
         <div class="row">
@@ -172,7 +175,7 @@
               <div class="text">
                 <p
                   class="mb-5"
-                >Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 <p class="name">Chris Welch</p>
                 <span class="position">CEO // Naativ</span>
               </div>
@@ -188,7 +191,7 @@
               <div class="text">
                 <p
                   class="mb-5"
-                >Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 <p class="name">Mike Carlson</p>
                 <span class="position">CEO // Green HoriZen</span>
               </div>
@@ -204,7 +207,7 @@
               <div class="text">
                 <p
                   class="mb-5"
-                >Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 <p class="name">Nathan Guest</p>
                 <span class="position">CEO // Rave VIP</span>
               </div>
