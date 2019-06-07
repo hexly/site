@@ -1,6 +1,6 @@
 <template>
   <div>
-    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark -light" id>
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark -light">
       <div class="container">
         <a class="navbar-brand" href="/">
           <img src="/logo.png" style="width: 45px; margin-right: 15px;">
@@ -14,7 +14,7 @@
       <div class="overlay"></div>
       <div class="circle-bg"></div>
       <div class="circle-bg-2"></div>
-      <div class="container-fluid">
+      <div class="container">
         <div class="slider-text d-md-flex align-items-center">
           <div class="one-forth pr-md-4 align-self-md-center">
             <h1 class="mb-4">
@@ -24,7 +24,7 @@
             <p class="mb-md-5 mb-sm-3"
             >Gone are the days of paying for idle servers! Effortlessly scale to meet the demand of your customers.</p>
             <p>
-              <a href="#" class="btn btn-primary px-4 py-3">Request a demo</a>
+              <a href="#request-demo" class="btn btn-primary px-4 py-3">Request a demo</a>
             </p>
           </div>
           <div class="one-half align-self-sm-center">
@@ -38,7 +38,7 @@
       </div>
     </div>
 
-    <section class="bg-light">
+    <section class="bg-light" id="request-demo">
       <div class="container">
         <div class="py-5">
           <div class="text-center heading-section">
@@ -330,7 +330,7 @@
                 <img src="/hexly.png" style="width: 75px;">
                 Hexly
                 <a
-                  href="#"
+                  href="#request-demo"
                   class="btn btn-primary p-3"
                   style="float: right;"
                 >Request a Demo</a>
