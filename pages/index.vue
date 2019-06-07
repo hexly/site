@@ -1,60 +1,101 @@
 <template>
   <div>
-    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark -light" id="">
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark -light" id>
       <div class="container">
-        <a class="navbar-brand" href="index.html">
-          <img src="/logo.png" style="width: 45px; margin-right: 15px;"/>
+        <a class="navbar-brand" href="/">
+          <img src="/logo.png" style="width: 45px; margin-right: 15px;">
           Hexly
         </a>
       </div>
     </nav>
-      <!-- END nav -->
-      
-      <div class="hero-wrap">
-        <div class="overlay"></div>
-        <div class="circle-bg"></div>
-        <div class="circle-bg-2"></div>
-        <div class="container-fluid">
-          <div class="slider-text d-md-flex align-items-center" data-scrollax-parent="true">
+    <!-- END nav -->
 
-            <div class="one-forth pr-md-4 align-self-md-center" data-scrollax=" properties: { translateY: '70%' }">
-              <h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Direct Sales, <br> Meet Serverless!</h1>
-              <p class="mb-md-5 mb-sm-3" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Gone are the days of paying for big fat servers! ;) Scale with your customers.</p>
-              <p data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"><a href="#" class="btn btn-primary px-4 py-3">Request a demo</a></p>
-            </div>
-            <div class="one-half align-self-sm-center">
-              <div class="">
-                <div class="item">
-                  <img src="/images/dashboard_full_1.png" class="img-fluid img" alt="">
-                </div>
+    <div class="hero-wrap">
+      <div class="overlay"></div>
+      <div class="circle-bg"></div>
+      <div class="circle-bg-2"></div>
+      <div class="container-fluid">
+        <div class="slider-text d-md-flex align-items-center" data-scrollax-parent="true">
+          <div
+            class="one-forth pr-md-4 align-self-md-center"
+            data-scrollax=" properties: { translateY: '70%' }"
+          >
+            <h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">
+              Direct Sales,
+              <br>Meet Serverless!
+            </h1>
+            <p
+              class="mb-md-5 mb-sm-3"
+              data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"
+            >Gone are the days of paying for idle servers! Effortlessly scale to meet the demand of your customers.</p>
+            <p data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">
+              <a href="#" class="btn btn-primary px-4 py-3">Request a demo</a>
+            </p>
+          </div>
+          <div class="one-half align-self-sm-center">
+            <div class>
+              <div class="item">
+                <img src="/images/dashboard_full_1.png" class="img-fluid img" alt>
               </div>
             </div>
           </div>
         </div>
       </div>
-      
-      <section class=" bg-light">
-        <div class="container">
-          <div class="row justify-content-center mb-5 ">
-            <div class="col-md-7 text-center heading-section ">
-              <span class="subheading">Request A Demo</span>
-              <h2 class="mb-4">See what we are all about</h2>
-              <p>We will contact you with more information about what makes Hexly awesome!</p>
-            </div>
+    </div>
+
+    <section class="bg-light">
+      <div class="container">
+        <div class="row justify-content-center mb-5">
+          <div class="col-md-7 text-center heading-section">
+            <span class="subheading">Request A Demo</span>
+            <h2 class="mb-4">See what we are all about</h2>
+            <p>We'll contact you to schedule some time</p>
           </div>
           <div class="row justify-content-center">
-            <div class="col-md-8 ">
-              <link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css" />
-              <form action="https://hexly.us20.list-manage.com/subscribe/post?u=19b1d9d365a0b84ef5602d975&amp;id=44d5494b33" class="validate domain-form" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" novalidate>
+            <div class="col-md-8">
+              <link
+                href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css"
+                rel="stylesheet"
+                type="text/css"
+              >
+              <form
+                action="https://hexly.us20.list-manage.com/subscribe/post?u=19b1d9d365a0b84ef5602d975&amp;id=44d5494b33"
+                class="validate domain-form"
+                method="post"
+                id="mc-embedded-subscribe-form"
+                name="mc-embedded-subscribe-form"
+                target="_blank"
+                novalidate
+              >
                 <div class="form-group d-md-flex" style="white-space: ">
                   <div id="mc_embed_signup_scroll">
-                    <input type="email" value="" name="EMAIL" class="email form-control px-4" id="mce-EMAIL" placeholder="email address" required style="display: inline-block;">
+                    <input
+                      type="email"
+                      value
+                      name="EMAIL"
+                      class="email form-control px-4"
+                      id="mce-EMAIL"
+                      placeholder="email address"
+                      required
+                      style="display: inline-block;"
+                    >
                     <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
                     <div style="position: absolute; left: -5000px;" aria-hidden="true">
-                      <input type="text" name="b_19b1d9d365a0b84ef5602d975_44d5494b33" tabindex="-1" value="">
+                      <input
+                        type="text"
+                        name="b_19b1d9d365a0b84ef5602d975_44d5494b33"
+                        tabindex="-1"
+                        value
+                      >
                     </div>
                     <div class="clear" style="display: inline-block;">
-                      <input type="submit" class="search-domain btn btn-primary px-5 button" value="Request Demo!" name="subscribe" id="mc-embedded-subscribe">
+                      <input
+                        type="submit"
+                        class="search-domain btn btn-primary px-5 button"
+                        value="Request Demo!"
+                        name="subscribe"
+                        id="mc-embedded-subscribe"
+                      >
                     </div>
                   </div>
                 </div>
@@ -62,188 +103,253 @@
             </div>
           </div>
         </div>
-      </section>
-    
-      <section class=" services-section">
-        <div class="container">
-          <div class="row justify-content-center mb-5 pb-5">
-            <div class="col-md-7 text-center heading-section ">
-              <span class="subheading">Services</span>
-              <h2 class="mb-4">Why choose us</h2>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-4 d-flex align-self-stretch ">
-              <div class="media block-6 services d-block text-center">
-                <div class="d-flex justify-content-center"><div class="icon"><span class="ion-ios-analytics"></span></div></div>
-                <div class="media-body p-2 mt-3">
-                  <h3 class="heading">Insights</h3>
-                  <p>Get Extra insights into your comp plan.</p>
-                </div>
-              </div>      
-            </div>
-            <div class="col-md-4 d-flex align-self-stretch ">
-              <div class="media block-6 services d-block text-center">
-                <div class="d-flex justify-content-center"><div class="icon"><span class="ion-ios-podium"></span></div></div>
-                <div class="media-body p-2 mt-3">
-                  <h3 class="heading">Technology</h3>
-                  <p>We manage your website traffic dynamically and scale on demand to save you money and meet your distributors needs.</p>
-                </div>
-              </div>    
-            </div>
-            <div class="col-md-4 d-flex align-self-stretch ">
-              <div class="media block-6 services d-block text-center">
-                <div class="d-flex justify-content-center"><div class="icon"><span class="ion-ios-cog"></span></div></div>
-                <div class="media-body p-2 mt-3">
-                  <h3 class="heading">Custom</h3>
-                  <p>Your backoffice will not feel off the shelf</p>
-                </div>
-              </div>      
-            </div>
+      </div>
+    </section>
+
+    <section class="services-section">
+      <div class="container">
+        <div class="row justify-content-center mb-5 pb-5">
+          <div class="col-md-7 text-center heading-section">
+            <!--<span class="subheading">Services</span>-->
+            <h2 class="mb-4">Why choose us</h2>
           </div>
         </div>
-      </section>
-      <section class="testimony-section bg-light">
-        <div class="container">
-          <div class="row justify-content-center mb-5 pb-5">
-            <div class="col-md-7 text-center heading-section ">
-              <span class="subheading">Customer Says</span>
-              <h2 class="mb-4">Our satisfied customer says</h2>
-              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in</p>
+        <div class="row">
+          <div class="col-md-4 d-flex align-self-stretch">
+            <div class="media block-6 services d-block text-center">
+              <div class="d-flex justify-content-center">
+                <div class="icon">
+                  <span class="ion-ios-analytics"></span>
+                </div>
+              </div>
+              <div class="media-body p-2 mt-3">
+                <h3 class="heading">Insights</h3>
+                <p>Get Extra insights into your comp plan.</p>
+              </div>
             </div>
           </div>
-          <div class="row">
-            <div class="item col-xs-12 col-lg-4">
-              <div class="testimony-wrap p-4 pb-5">
-                <div class="user-img mb-5" style="background-image: url(images/naativ.png)">
-                  <span class="quote d-flex align-items-center justify-content-center">
-                    <i class="icon-quote-left"></i>
-                  </span>
-                </div>
-                <div class="text">
-                  <p class="mb-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                  <p class="name">Chris Welch</p>
-                  <span class="position">CEO - Naativ</span>
+          <div class="col-md-4 d-flex align-self-stretch">
+            <div class="media block-6 services d-block text-center">
+              <div class="d-flex justify-content-center">
+                <div class="icon">
+                  <span class="ion-ios-podium"></span>
                 </div>
               </div>
-            </div>
-            <div class="item col-xs-12 col-lg-4">
-              <div class="testimony-wrap p-4 pb-5">
-                <div class="user-img mb-5" style="background-image: url(images/greenhorizen.jpg)">
-                  <span class="quote d-flex align-items-center justify-content-center">
-                    <i class="icon-quote-left"></i>
-                  </span>
-                </div>
-                <div class="text">
-                  <p class="mb-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                  <p class="name">Mike Carlson</p>
-                  <span class="position">CEO - Green HoriZen</span>
-                </div>
+              <div class="media-body p-2 mt-3">
+                <h3 class="heading">Technology</h3>
+                <p>We manage your website traffic dynamically and scale on demand to save you money and meet your distributors needs.</p>
               </div>
             </div>
-            <div class="item col-xs-12 col-lg-4">
-              <div class="testimony-wrap p-4 pb-5">
-                <div class="user-img mb-5" style="background-image: url(images/rave.jpg)">
-                  <span class="quote d-flex align-items-center justify-content-center">
-                    <i class="icon-quote-left"></i>
-                  </span>
+          </div>
+          <div class="col-md-4 d-flex align-self-stretch">
+            <div class="media block-6 services d-block text-center">
+              <div class="d-flex justify-content-center">
+                <div class="icon">
+                  <span class="ion-ios-cog"></span>
                 </div>
-                <div class="text">
-                  <p class="mb-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                  <p class="name">Nathan Guest</p>
-                  <span class="position">CEO - Rave</span>
-                </div>
+              </div>
+              <div class="media-body p-2 mt-3">
+                <h3 class="heading">Custom</h3>
+                <p>Your backoffice will not feel off the shelf</p>
               </div>
             </div>
           </div>
         </div>
-      </section>
-
-      <section class="">
-        <div class="container">
-          <div class="row justify-content-center mb-5 pb-5">
-            <div class="col-md-7 text-center heading-section ">
-              <span class="subheading">Services</span>
-              <h2 class="mb-4">How it works</h2>
-            </div>
+      </div>
+    </section>
+    <section class="testimony-section bg-light">
+      <div class="container">
+        <div class="row justify-content-center mb-5 pb-5">
+          <div class="col-md-7 text-center heading-section">
+            <!--<span class="subheading">Customers Say</span>-->
+            <h2 class="mb-4">Our satisfied customers say</h2>
+            <p>Do we need text here?</p>
           </div>
-          <div class="row">
-            <div class="col-md-12 nav-link-wrap mb-5 pb-md-5 pb-sm-1 ">
-              <div class="nav  nav-pills justify-content-center text-center" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                <a class="nav-link active" id="v-pills-nextgen-tab" data-toggle="pill" href="#v-pills-nextgen" role="tab" aria-controls="v-pills-nextgen" aria-selected="true">Next gen VPS</a>
-
-                <a class="nav-link" id="v-pills-performance-tab" data-toggle="pill" href="#v-pills-performance" role="tab" aria-controls="v-pills-performance" aria-selected="false">Performance</a>
-
-                <a class="nav-link" id="v-pills-effect-tab" data-toggle="pill" href="#v-pills-effect" role="tab" aria-controls="v-pills-effect" aria-selected="false">Effectiveness</a>
+        </div>
+        <div class="row">
+          <div class="item col-xs-12 col-lg-4">
+            <div class="testimony-wrap p-4 pb-5">
+              <div class="user-img mb-5" style="background-image: url(images/naativ.png)">
+                <span class="quote d-flex align-items-center justify-content-center">
+                  <i class="icon-quote-left"></i>
+                </span>
+              </div>
+              <div class="text">
+                <p
+                  class="mb-5"
+                >Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                <p class="name">Chris Welch</p>
+                <span class="position">CEO - Naativ</span>
               </div>
             </div>
-            <div class="col-md-12 align-items-center ">
-              
-              <div class="tab-content " id="v-pills-tabContent">
+          </div>
+          <div class="item col-xs-12 col-lg-4">
+            <div class="testimony-wrap p-4 pb-5">
+              <div class="user-img mb-5" style="background-image: url(images/greenhorizen.jpg)">
+                <span class="quote d-flex align-items-center justify-content-center">
+                  <i class="icon-quote-left"></i>
+                </span>
+              </div>
+              <div class="text">
+                <p
+                  class="mb-5"
+                >Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                <p class="name">Mike Carlson</p>
+                <span class="position">CEO - Green HoriZen</span>
+              </div>
+            </div>
+          </div>
+          <div class="item col-xs-12 col-lg-4">
+            <div class="testimony-wrap p-4 pb-5">
+              <div class="user-img mb-5" style="background-image: url(images/rave.jpg)">
+                <span class="quote d-flex align-items-center justify-content-center">
+                  <i class="icon-quote-left"></i>
+                </span>
+              </div>
+              <div class="text">
+                <p
+                  class="mb-5"
+                >Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                <p class="name">Nathan Guest</p>
+                <span class="position">CEO - Rave</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-                <div class="tab-pane fade show active" id="v-pills-nextgen" role="tabpanel" aria-labelledby="v-pills-nextgen-tab">
-                  <div class="d-md-flex">
-                    <div class="one-forth align-self-center">
-                      <img src="images/dashboard_full_1.jpg" class="img-fluid border" alt="">
-                    </div>
-                    <div class="one-half ml-md-5 align-self-center">
-                      <h2 class="mb-4">Next gen VPS hosting</h2>
-                      <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt voluptate, quibusdam sunt iste dolores consequatur</p>
-                    </div>
+    <section class>
+      <div class="container">
+        <div class="row justify-content-center mb-5 pb-5">
+          <div class="col-md-7 text-center heading-section">
+            <span class="subheading">Services</span>
+            <h2 class="mb-4">How it works</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 nav-link-wrap mb-5 pb-md-5 pb-sm-1">
+            <div
+              class="nav nav-pills justify-content-center text-center"
+              id="v-pills-tab"
+              role="tablist"
+              aria-orientation="vertical"
+            >
+              <a
+                class="nav-link active"
+                id="v-pills-nextgen-tab"
+                data-toggle="pill"
+                href="#v-pills-nextgen"
+                role="tab"
+                aria-controls="v-pills-nextgen"
+                aria-selected="true"
+              >Serverless</a>
+
+              <a
+                class="nav-link"
+                id="v-pills-performance-tab"
+                data-toggle="pill"
+                href="#v-pills-performance"
+                role="tab"
+                aria-controls="v-pills-performance"
+                aria-selected="false"
+              >Comp Engine</a>
+
+              <a
+                class="nav-link"
+                id="v-pills-effect-tab"
+                data-toggle="pill"
+                href="#v-pills-effect"
+                role="tab"
+                aria-controls="v-pills-effect"
+                aria-selected="false"
+              >Backoffice</a>
+            </div>
+          </div>
+          <div class="col-md-12 align-items-center">
+            <div class="tab-content" id="v-pills-tabContent">
+              <div
+                class="tab-pane fade show active"
+                id="v-pills-nextgen"
+                role="tabpanel"
+                aria-labelledby="v-pills-nextgen-tab"
+              >
+                <div class="d-md-flex">
+                  <div class="one-forth align-self-center">
+                    <img src="images/dashboard_full_1.jpg" class="img-fluid border" alt>
+                  </div>
+                  <div class="one-half ml-md-5 align-self-center">
+                    <h2 class="mb-4">Serverless</h2>
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt voluptate, quibusdam sunt iste dolores consequatur</p>
                   </div>
                 </div>
+              </div>
 
-                <div class="tab-pane fade" id="v-pills-performance" role="tabpanel" aria-labelledby="v-pills-performance-tab">
-                  <div class="d-md-flex">
-                    <div class="one-forth order-last align-self-center">
-                      <img src="images/dashboard_full_2.jpg" class="img-fluid border" alt="">
-                    </div>
-                    <div class="one-half order-first mr-md-5 align-self-center">
-                      <h2 class="mb-4">Performance VPS hosting</h2>
-                      <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt voluptate, quibusdam sunt iste dolores consequatur</p>
-                    </div>
+              <div
+                class="tab-pane fade"
+                id="v-pills-performance"
+                role="tabpanel"
+                aria-labelledby="v-pills-performance-tab"
+              >
+                <div class="d-md-flex">
+                  <div class="one-forth order-last align-self-center">
+                    <img src="images/dashboard_full_2.jpg" class="img-fluid border" alt>
+                  </div>
+                  <div class="one-half order-first mr-md-5 align-self-center">
+                    <h2 class="mb-4">Comp Engine</h2>
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt voluptate, quibusdam sunt iste dolores consequatur</p>
                   </div>
                 </div>
+              </div>
 
-                <div class="tab-pane fade" id="v-pills-effect" role="tabpanel" aria-labelledby="v-pills-effect-tab">
-                  <div class="d-md-flex">
-                    <div class="one-forth align-self-center">
-                      <img src="images/dashboard_full_1.jpg" class="img-fluid border" alt="">
-                    </div>
-                    <div class="one-half ml-md-5 align-self-center">
-                      <h2 class="mb-4">Effective VPS hosting</h2>
-                      <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt voluptate, quibusdam sunt iste dolores consequatur</p>
-                    </div>
+              <div
+                class="tab-pane fade"
+                id="v-pills-effect"
+                role="tabpanel"
+                aria-labelledby="v-pills-effect-tab"
+              >
+                <div class="d-md-flex">
+                  <div class="one-forth align-self-center">
+                    <img src="images/dashboard_full_1.jpg" class="img-fluid border" alt>
+                  </div>
+                  <div class="one-half ml-md-5 align-self-center">
+                    <h2 class="mb-4">Backoffice</h2>
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt voluptate, quibusdam sunt iste dolores consequatur</p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </section>
-      <footer class="mt-5">
-        <div class="container">
-          <div class="row mb-5">
-            <div class="col-md">
-              <div class="-widget mb-4">
-                <h2 class="-2">
-                  <img src="/hexly.png" style="width: 75px;"/>
-                  Hexly.
-                  <a href="#" class="btn btn-primary p-3" style="float: right;">Request a Demo</a>
-                </h2>
-              </div>
+      </div>
+    </section>
+    <footer class="mt-5">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md">
+            <div class="-widget mb-4">
+              <h2 class="-2">
+                <img src="/hexly.png" style="width: 75px;">
+                Hexly
+                <a
+                  href="#"
+                  class="btn btn-primary p-3"
+                  style="float: right;"
+                >Request a Demo</a>
+              </h2>
             </div>
           </div>
         </div>
-      </footer>
+      </div>
+    </footer>
   </div>
 </template>
 
 <style>
 .logo {
-  font-family: 'Pacifico';
+  font-family: "Pacifico";
 }
 </style>
