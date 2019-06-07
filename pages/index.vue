@@ -47,7 +47,7 @@
       <div class="container">
         <div class="row justify-content-center mb-5">
           <div class="col-md-7 text-center heading-section">
-            <span class="subheading">Request A Demo</span>
+            <!--<span class="subheading">Request A Demo</span>-->
             <h2 class="mb-4">See what we are all about</h2>
             <p>We'll contact you to schedule some time</p>
           </div>
@@ -150,7 +150,7 @@
               </div>
               <div class="media-body p-2 mt-3">
                 <h3 class="heading">Custom</h3>
-                <p>Your backoffice will not feel off the shelf</p>
+                <p>Your backoffice can be yours</p>
               </div>
             </div>
           </div>
@@ -179,7 +179,7 @@
                   class="mb-5"
                 >Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
                 <p class="name">Chris Welch</p>
-                <span class="position">CEO - Naativ</span>
+                <span class="position">CEO // Naativ</span>
               </div>
             </div>
           </div>
@@ -195,7 +195,7 @@
                   class="mb-5"
                 >Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
                 <p class="name">Mike Carlson</p>
-                <span class="position">CEO - Green HoriZen</span>
+                <span class="position">CEO // Green HoriZen</span>
               </div>
             </div>
           </div>
@@ -211,7 +211,7 @@
                   class="mb-5"
                 >Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
                 <p class="name">Nathan Guest</p>
-                <span class="position">CEO - Rave</span>
+                <span class="position">CEO // Rave VIP</span>
               </div>
             </div>
           </div>
@@ -223,7 +223,7 @@
       <div class="container">
         <div class="row justify-content-center mb-5 pb-5">
           <div class="col-md-7 text-center heading-section">
-            <span class="subheading">Services</span>
+            <!--<span class="subheading">Services</span>-->
             <h2 class="mb-4">How it works</h2>
           </div>
         </div>
@@ -297,7 +297,7 @@
                     <img src="images/dashboard_full_2.jpg" class="img-fluid border" alt>
                   </div>
                   <div class="one-half order-first mr-md-5 align-self-center">
-                    <h2 class="mb-4">Comp Engine</h2>
+                    <h2 class="mb-4">Integrations</h2>
                     <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt voluptate, quibusdam sunt iste dolores consequatur</p>
                   </div>
