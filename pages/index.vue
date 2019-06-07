@@ -15,20 +15,15 @@
       <div class="circle-bg"></div>
       <div class="circle-bg-2"></div>
       <div class="container-fluid">
-        <div class="slider-text d-md-flex align-items-center" data-scrollax-parent="true">
-          <div
-            class="one-forth pr-md-4 align-self-md-center"
-            data-scrollax=" properties: { translateY: '70%' }"
-          >
-            <h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">
+        <div class="slider-text d-md-flex align-items-center">
+          <div class="one-forth pr-md-4 align-self-md-center">
+            <h1 class="mb-4">
               Direct Sales,
               <br>Meet Serverless!
             </h1>
-            <p
-              class="mb-md-5 mb-sm-3"
-              data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"
+            <p class="mb-md-5 mb-sm-3"
             >Gone are the days of paying for idle servers! Effortlessly scale to meet the demand of your customers.</p>
-            <p data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">
+            <p>
               <a href="#" class="btn btn-primary px-4 py-3">Request a demo</a>
             </p>
           </div>
@@ -45,14 +40,14 @@
 
     <section class="bg-light">
       <div class="container">
-        <div class="row justify-content-center mb-5">
-          <div class="col-md-7 text-center heading-section">
+        <div class="py-5">
+          <div class="text-center heading-section">
             <!--<span class="subheading">Request A Demo</span>-->
             <h2 class="mb-4">See what we are all about</h2>
             <p>We'll contact you to schedule some time</p>
           </div>
-          <div class="row justify-content-center">
-            <div class="col-md-8">
+          <div>
+            <div>
               <link
                 href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css"
                 rel="stylesheet"
@@ -67,8 +62,8 @@
                 target="_blank"
                 novalidate
               >
-                <div class="form-group d-md-flex" style="white-space: ">
-                  <div id="mc_embed_signup_scroll">
+                <div class="form-group d-md-flex" style="width: 100%; margin: auto; max-width: 550px;">
+                  <div id="mc_embed_signup_scroll" style="text-align: center; width: 100%;">
                     <input
                       type="email"
                       value
@@ -88,7 +83,7 @@
                         value
                       >
                     </div>
-                    <div class="clear" style="display: inline-block;">
+                    <div class="clear" style="display: inline-block; margin: 10px 0;">
                       <input
                         type="submit"
                         class="search-domain btn btn-primary px-5 button"
@@ -108,10 +103,10 @@
 
     <section class="services-section">
       <div class="container">
-        <div class="row justify-content-center mb-5 pb-5">
+        <div class="row justify-content-center py-5">
           <div class="col-md-7 text-center heading-section">
             <!--<span class="subheading">Services</span>-->
-            <h2 class="mb-4">Why choose us</h2>
+            <h2>Why choose us</h2>
           </div>
         </div>
         <div class="row">
@@ -159,7 +154,7 @@
     </section>
     <section class="testimony-section bg-light">
       <div class="container">
-        <div class="row justify-content-center mb-5 pb-5">
+        <div class="row justify-content-center py-5">
           <div class="col-md-7 text-center heading-section">
             <!--<span class="subheading">Customers Say</span>-->
             <h2 class="mb-4">Our satisfied customers say</h2>
@@ -221,7 +216,7 @@
 
     <section class>
       <div class="container">
-        <div class="row justify-content-center mb-5 pb-5">
+        <div class="row justify-content-center py-5">
           <div class="col-md-7 text-center heading-section">
             <!--<span class="subheading">Services</span>-->
             <h2 class="mb-4">How it works</h2>
