@@ -1,6 +1,6 @@
 <template>
   <div>
-    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark -light" id>
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark -light">
       <div class="container">
         <a class="navbar-brand" href="/">
           <img src="/logo.png" style="width: 45px; margin-right: 15px;">
@@ -14,7 +14,7 @@
       <div class="overlay"></div>
       <div class="circle-bg"></div>
       <div class="circle-bg-2"></div>
-      <div class="container-fluid">
+      <div class="container">
         <div class="slider-text d-md-flex align-items-center">
           <div class="one-forth pr-md-4 align-self-md-center">
             <h1 class="mb-4">
@@ -39,7 +39,7 @@
       </div>
     </div>
 
-    <section class="bg-light">
+    <section class="bg-light" id="request-demo">
       <div class="container">
         <div class="py-5">
           <div class="text-center heading-section">
@@ -118,7 +118,7 @@
             <div class="media block-6 services d-block text-center">
               <div class="d-flex justify-content-center">
                 <div class="icon">
-                  <span class="ion-ios-podium"></span>
+                  <span class="ion-ios-rocket"></span>
                 </div>
               </div>
               <div class="media-body p-2 mt-3">
@@ -161,7 +161,7 @@
         <div class="row justify-content-center py-5">
           <div class="col-md-7 text-center heading-section">
             <!--<span class="subheading">Customers Say</span>-->
-            <h2 class="mb-4">Our satisfied customers say</h2>
+            <h2 class="mb-4">Our satisfied partners say</h2>
           </div>
         </div>
         <div class="row">
@@ -278,8 +278,10 @@
                   </div>
                   <div class="one-half ml-md-5 align-self-center">
                     <h2 class="mb-4">Serverless</h2>
-                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt voluptate, quibusdam sunt iste dolores consequatur</p>
+                    <p>
+                      Backed by the cloud, our serverless architecture allows Hexly's platform to provide greater scalability and quicker time to release—all at a reduced cost so you can run mean
+                      <em>and lean</em>.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -295,9 +297,8 @@
                     <img src="images/dashboard_full_2.jpg" class="img-fluid border" alt>
                   </div>
                   <div class="one-half order-first mr-md-5 align-self-center">
-                    <h2 class="mb-4">Integrations</h2>
-                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt voluptate, quibusdam sunt iste dolores consequatur</p>
+                    <h2 class="mb-4">Comp Engine</h2>
+                    <p>Our comp engine allows you to get into the details so that you and your sales field understand commission earnings.</p>
                   </div>
                 </div>
               </div>
@@ -313,9 +314,8 @@
                     <img src="images/dashboard_full_1.jpg" class="img-fluid border" alt>
                   </div>
                   <div class="one-half ml-md-5 align-self-center">
-                    <h2 class="mb-4">Backoffice</h2>
-                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt voluptate, quibusdam sunt iste dolores consequatur</p>
+                    <h2 class="mb-4">Tools</h2>
+                    <p>Our platform supports your sales field with a custom backoffice experience and an integrated e-commerce replicated site experience. You'll also have everything you need on the corporate side of things.</p>
                   </div>
                 </div>
               </div>
@@ -333,7 +333,7 @@
                 <img src="/hexly.png" style="width: 75px;">
                 Hexly
                 <a
-                  href="#"
+                  href="#request-demo"
                   class="btn btn-primary p-3"
                   style="float: right;"
                 >Request a Demo</a>
