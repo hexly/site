@@ -1,19 +1,14 @@
 <template>
   <div>
-    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark -light">
+    <nav class="navbar navbar-dark bg-dark">
       <div class="container">
-        <a class="navbar-brand" href="/">
-          <img src="/logo.png" style="width: 45px; margin-right: 15px;">
-          Hexly
-        </a>
+        <a class="navbar-brand" href="/"><img src="/logo.png" style="width: 45px; margin-right: 15px;">Hexly</a>
       </div>
     </nav>
-    <!-- END nav -->
-
-    <div class="hero-wrap">
+    <div class="hero-wrapper">
       <div class="overlay"></div>
-      <div class="circle-bg"></div>
-      <div class="circle-bg-2"></div>
+      <div class="logo-bg"></div>
+      <div class="logo-bg-2"></div>
       <div class="container">
         <div class="slider-text d-md-flex align-items-center">
           <div class="one-forth pr-md-4 align-self-md-center">
@@ -21,12 +16,10 @@
               Direct Sales,
               <br>Meet Serverless!
             </h1>
-            <p
-              class="mb-md-5 mb-sm-3"
-            >Gone are the days of paying for idle servers! Effortlessly scale to meet the demand of your distributors and customers.</p>
-            <p>
-              <a href="#" class="btn btn-primary px-4 py-3">Request a Demo</a>
+            <p class="mb-md-5 mb-sm-3">
+              Gone are the days of paying for idle servers! Effortlessly scale to meet the demand of your distributors and customers.
             </p>
+            <p><a href="#request-demo" class="btn btn-primary px-4 py-3">Request a Demo</a></p>
           </div>
           <div class="one-half align-self-sm-center">
             <div class>
@@ -38,14 +31,11 @@
         </div>
       </div>
     </div>
-
-    <section class="bg-light" id="request-demo">
+    <section class="bg-light py-5" id="request-demo">
       <div class="container">
         <div class="py-5">
           <div class="text-center heading-section">
-            <!--<span class="subheading">Request A Demo</span>-->
             <h2 class="mb-4">See what we are all about</h2>
-            <p>We'll contact you to schedule some time</p>
           </div>
           <div>
             <div>
@@ -99,17 +89,16 @@
                   </div>
                 </div>
               </form>
+              <p class="text-center">We'll contact you to schedule some time</p>
             </div>
           </div>
         </div>
       </div>
     </section>
-
-    <section class="services-section">
+    <section class="services-section py-5">
       <div class="container">
         <div class="row justify-content-center py-5">
           <div class="col-md-7 text-center heading-section">
-            <!--<span class="subheading">Services</span>-->
             <h2>Why choose us</h2>
           </div>
         </div>
@@ -156,11 +145,10 @@
         </div>
       </div>
     </section>
-    <section class="testimony-section bg-light">
+    <section class="testimony-section bg-light py-5">
       <div class="container">
-        <div class="row justify-content-center py-5">
+        <div class="row justify-content-center py-2">
           <div class="col-md-7 text-center heading-section">
-            <!--<span class="subheading">Customers Say</span>-->
             <h2 class="mb-4">Our satisfied partners say</h2>
           </div>
         </div>
@@ -169,7 +157,7 @@
             <div class="testimony-wrap p-4 pb-5">
               <div class="user-img mb-5" style="background-image: url(images/naativ.png)">
                 <span class="quote d-flex align-items-center justify-content-center">
-                  <i class="icon-quote-left"></i>
+                  <i class="ion-ios-quote"></i>
                 </span>
               </div>
               <div class="text">
@@ -185,7 +173,7 @@
             <div class="testimony-wrap p-4 pb-5">
               <div class="user-img mb-5" style="background-image: url(images/greenhorizen.jpg)">
                 <span class="quote d-flex align-items-center justify-content-center">
-                  <i class="icon-quote-left"></i>
+                  <i class="ion-ios-quote"></i>
                 </span>
               </div>
               <div class="text">
@@ -201,7 +189,7 @@
             <div class="testimony-wrap p-4 pb-5">
               <div class="user-img mb-5" style="background-image: url(images/rave.jpg)">
                 <span class="quote d-flex align-items-center justify-content-center">
-                  <i class="icon-quote-left"></i>
+                  <i class="ion-ios-quote"></i>
                 </span>
               </div>
               <div class="text">
@@ -216,62 +204,17 @@
         </div>
       </div>
     </section>
-
     <section class>
       <div class="container">
         <div class="row justify-content-center py-5">
           <div class="col-md-7 text-center heading-section">
-            <!--<span class="subheading">Services</span>-->
             <h2 class="mb-4">How it works</h2>
           </div>
         </div>
         <div class="row">
-          <div class="col-md-12 nav-link-wrap mb-5 pb-md-5 pb-sm-1">
-            <div
-              class="nav nav-pills justify-content-center text-center"
-              id="v-pills-tab"
-              role="tablist"
-              aria-orientation="vertical"
-            >
-              <a
-                class="nav-link active"
-                id="v-pills-nextgen-tab"
-                data-toggle="pill"
-                href="#v-pills-nextgen"
-                role="tab"
-                aria-controls="v-pills-nextgen"
-                aria-selected="true"
-              >Serverless</a>
-
-              <a
-                class="nav-link"
-                id="v-pills-performance-tab"
-                data-toggle="pill"
-                href="#v-pills-performance"
-                role="tab"
-                aria-controls="v-pills-performance"
-                aria-selected="false"
-              >Comp Engine</a>
-
-              <a
-                class="nav-link"
-                id="v-pills-effect-tab"
-                data-toggle="pill"
-                href="#v-pills-effect"
-                role="tab"
-                aria-controls="v-pills-effect"
-                aria-selected="false"
-              >Backoffice</a>
-            </div>
-          </div>
           <div class="col-md-12 align-items-center">
-            <div class="tab-content" id="v-pills-tabContent">
-              <div
-                class="tab-pane fade show active"
-                id="v-pills-nextgen"
-                role="tabpanel"
-                aria-labelledby="v-pills-nextgen-tab"
-              >
+            <div>
+              <div class="pb-5">
                 <div class="d-md-flex">
                   <div class="one-forth align-self-center">
                     <img src="images/dashboard_full_1.jpg" class="img-fluid border" alt>
@@ -285,13 +228,7 @@
                   </div>
                 </div>
               </div>
-
-              <div
-                class="tab-pane fade"
-                id="v-pills-performance"
-                role="tabpanel"
-                aria-labelledby="v-pills-performance-tab"
-              >
+              <div class="py-5">
                 <div class="d-md-flex">
                   <div class="one-forth order-last align-self-center">
                     <img src="images/dashboard_full_2.jpg" class="img-fluid border" alt>
@@ -302,13 +239,7 @@
                   </div>
                 </div>
               </div>
-
-              <div
-                class="tab-pane fade"
-                id="v-pills-effect"
-                role="tabpanel"
-                aria-labelledby="v-pills-effect-tab"
-              >
+              <div class="py-5">
                 <div class="d-md-flex">
                   <div class="one-forth align-self-center">
                     <img src="images/dashboard_full_1.jpg" class="img-fluid border" alt>
@@ -324,30 +255,31 @@
         </div>
       </div>
     </section>
-    <footer class="mt-5">
+    <footer class="mt-5 py-5 bg-light">
       <div class="container">
         <div class="row mb-5">
           <div class="col-md">
-            <div class="-widget mb-4">
-              <h2 class="-2">
-                <img src="/hexly.png" style="width: 75px;">
-                Hexly
-                <a
-                  href="#request-demo"
-                  class="btn btn-primary p-3"
-                  style="float: right;"
-                >Request a Demo</a>
-              </h2>
+            <div class="mb-4 footer-section">
+              <h2><img src="/hexly.png" style="width: 75px;">Hexly</h2>
+              <a href="#request-demo" class="mt-3 btn btn-primary p-3">Request a Demo</a>
             </div>
           </div>
+        </div>
+        <div class="text-center">
+          <p>© Copyright {{year}} | Salt Lake City</p>
         </div>
       </div>
     </footer>
   </div>
 </template>
 
-<style>
-.logo {
-  font-family: "Pacifico";
+<script>
+export default {
+  name: 'Homepage',
+  data(){
+    return {
+      year: new Date().getFullYear()
+    }
+  }
 }
-</style>
+</script>
