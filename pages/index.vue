@@ -195,7 +195,7 @@
               <div class="text">
                 <p
                   class="mb-5"
-                >The team at Hexly is amazing. Not only are they extremely talented, but they are excellent to work with.</p>
+                >The team at Hexly is amazing. Not only are they extremely talented, but they are also excellent to work with.</p>
                 <p class="name">Nathan Guest</p>
                 <span class="position">President &amp; Co-Founder // Rave VIP</span>
               </div>
