@@ -13,7 +13,7 @@
       <div class="logo-bg-2"></div>
       <div class="container">
         <div class="slider-text d-md-flex align-items-center">
-          <div class="one-forth pr-md-4 align-self-md-center">
+          <div class="one-forth align-self-md-center">
             <h1 class="mb-4">
               Direct Sales,
               <br>Meet Serverless!
