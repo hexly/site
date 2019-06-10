@@ -2,7 +2,9 @@
   <div>
     <nav class="navbar navbar-dark bg-dark">
       <div class="container">
-        <a class="navbar-brand" href="/"><img src="/logo.png" style="width: 45px; margin-right: 15px;">Hexly</a>
+        <a class="navbar-brand" href="/">
+          <img src="/logo.png" style="width: 45px; margin-right: 15px;">Hexly
+        </a>
       </div>
     </nav>
     <div class="hero-wrapper">
@@ -16,10 +18,12 @@
               Direct Sales,
               <br>Meet Serverless!
             </h1>
-            <p class="mb-md-5 mb-sm-3">
-              Gone are the days of paying for idle servers! Effortlessly scale to meet the demand of your distributors and customers.
+            <p
+              class="mb-md-5 mb-sm-3"
+            >Gone are the days of paying for idle servers! Effortlessly scale to meet the demand of your distributors and customers.</p>
+            <p>
+              <a href="#request-demo" class="btn btn-primary px-4 py-3">Request a Demo</a>
             </p>
-            <p><a href="#request-demo" class="btn btn-primary px-4 py-3">Request a Demo</a></p>
           </div>
           <div class="one-half align-self-sm-center">
             <div class>
@@ -153,7 +157,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="item col-xs-12 col-lg-4">
+          <!--<div class="item col-xs-12 col-lg-4">
             <div class="testimony-wrap p-4 pb-5">
               <div class="user-img mb-5" style="background-image: url(images/naativ.png)">
                 <span class="quote d-flex align-items-center justify-content-center">
@@ -161,9 +165,7 @@
                 </span>
               </div>
               <div class="text">
-                <p
-                  class="mb-5"
-                >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 <p class="name">Chris Welch</p>
                 <span class="position">CEO // Naativ</span>
               </div>
@@ -177,14 +179,12 @@
                 </span>
               </div>
               <div class="text">
-                <p
-                  class="mb-5"
-                >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 <p class="name">Mike Carlson</p>
                 <span class="position">CEO // Green HoriZen</span>
               </div>
             </div>
-          </div>
+          </div>-->
           <div class="item col-xs-12 col-lg-4">
             <div class="testimony-wrap p-4 pb-5">
               <div class="user-img mb-5" style="background-image: url(images/rave.jpg)">
@@ -195,9 +195,9 @@
               <div class="text">
                 <p
                   class="mb-5"
-                >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                >The team at Hexly is amazing. Not only are they extremely talented, but they are excellent to work with.</p>
                 <p class="name">Nathan Guest</p>
-                <span class="position">CEO // Rave VIP</span>
+                <span class="position">President &amp; Co-Founder // Rave VIP</span>
               </div>
             </div>
           </div>
@@ -246,7 +246,7 @@
                   </div>
                   <div class="one-half ml-md-5 align-self-center">
                     <h2 class="mb-4">Tools</h2>
-                    <p>Our platform supports your sales field with a custom backoffice experience and an integrated e-commerce replicated site experience. You'll also have everything you need on the corporate side of things.</p>
+                    <p>Our platform supports your sales field with a custom backoffice experience and an integrated e-commerce replicated site experience. Everything you need to run your direct sales company out of the box.</p>
                   </div>
                 </div>
               </div>
@@ -260,7 +260,9 @@
         <div class="row mb-5">
           <div class="col-md">
             <div class="mb-4 footer-section">
-              <h2><img src="/hexly.png" style="width: 75px;">Hexly</h2>
+              <h2>
+                <img src="/hexly.png" style="width: 75px;">Hexly
+              </h2>
               <a href="#request-demo" class="mt-3 btn btn-primary p-3">Request a Demo</a>
             </div>
           </div>
@@ -276,7 +278,7 @@
 <script>
 export default {
   name: 'Homepage',
-  data(){
+  data () {
     return {
       year: new Date().getFullYear()
     }
