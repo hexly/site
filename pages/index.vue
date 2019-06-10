@@ -110,7 +110,7 @@
           <div class="col-md-4 d-flex align-self-stretch">
             <div class="media block-6 services d-block text-center">
               <div class="d-flex justify-content-center">
-                <div class="icon">
+                <div class="icon-flipped">
                   <span class="ion-ios-rocket"></span>
                 </div>
               </div>
@@ -136,7 +136,7 @@
           <div class="col-md-4 d-flex align-self-stretch">
             <div class="media block-6 services d-block text-center">
               <div class="d-flex justify-content-center">
-                <div class="icon">
+                <div class="icon-flipped">
                   <span class="ion-ios-analytics"></span>
                 </div>
               </div>
@@ -156,8 +156,8 @@
             <h2 class="mb-4">Our satisfied partners say</h2>
           </div>
         </div>
-        <div class="row">
-          <!--<div class="item col-xs-12 col-lg-4">
+        <div class="row" style="justify-content: center;">
+          <!-- <div class="item col-xs-12 col-lg-4">
             <div class="testimony-wrap p-4 pb-5">
               <div class="user-img mb-5" style="background-image: url(images/naativ.png)">
                 <span class="quote d-flex align-items-center justify-content-center">
@@ -170,8 +170,8 @@
                 <span class="position">CEO // Naativ</span>
               </div>
             </div>
-          </div>
-          <div class="item col-xs-12 col-lg-4">
+          </div> -->
+          <div class="item col-xs-12 col-lg-6">
             <div class="testimony-wrap p-4 pb-5">
               <div class="user-img mb-5" style="background-image: url(images/greenhorizen.jpg)">
                 <span class="quote d-flex align-items-center justify-content-center">
@@ -179,13 +179,13 @@
                 </span>
               </div>
               <div class="text">
-                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p class="mb-5">I've been very impressed with how quickly Hexly has been able to jump in and make a difference for my company.</p>
                 <p class="name">Mike Carlson</p>
-                <span class="position">CEO // Green HoriZen</span>
+                <span class="position">CEO & Co-Founter // Green HoriZen</span>
               </div>
             </div>
-          </div>-->
-          <div class="item col-xs-12 col-lg-4">
+          </div>
+          <div class="item col-xs-12 col-lg-6">
             <div class="testimony-wrap p-4 pb-5">
               <div class="user-img mb-5" style="background-image: url(images/rave.jpg)">
                 <span class="quote d-flex align-items-center justify-content-center">

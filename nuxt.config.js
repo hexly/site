@@ -42,5 +42,8 @@ module.exports = {
       { rel: 'stylesheet', href: '/css/ionicons.min.css' },
       { rel: 'stylesheet', href: '/css/style.css' }
     ]
-  }
+  },
+  modules: [
+    ['@nuxtjs/google-analytics', { id: 'UA-141809305-1' }]
+  ]
 }
