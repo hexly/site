@@ -7311,7 +7311,8 @@ h1, h2, h3, h4, h5,
   position: relative;
   z-index: 1;
   height: 700px;
-  overflow: hidden; }
+  overflow-x: hidden;
+  overflow-y: visible; }
   .hero-wrapper .overlay {
     position: absolute;
     top: 0;
