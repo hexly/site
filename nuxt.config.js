@@ -24,8 +24,6 @@ module.exports = {
         content: 'https://www.hexly.io/images/hexly_site.jpg'
       },
       { hid: 'og:image:type', name: 'og:image:type', content: 'image/jpeg' },
-      { hid: 'og:image:width', name: 'og:image:width', content: '400' },
-      { hid: 'og:image:height', name: 'og:image:height', content: '300' },
       {
         hid: 'og:image:alt',
         name: 'og:image:alt',
