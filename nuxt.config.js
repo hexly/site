@@ -3,7 +3,10 @@ module.exports = {
     title: 'Hexly | Direct Sales Platform | MLM Software',
     meta: [
       { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1, maximum-scale=1' },
+      {
+        name: 'viewport',
+        content: 'width=device-width, initial-scale=1, maximum-scale=1'
+      },
       {
         hid: 'description',
         name: 'description',
@@ -41,7 +44,5 @@ module.exports = {
       { rel: 'stylesheet', href: '/css/style.css' }
     ]
   },
-  modules: [
-    ['@nuxtjs/google-analytics', { id: 'UA-141809305-1' }]
-  ]
+  modules: [['@nuxtjs/google-analytics', { id: 'UA-141809305-1' }]]
 }
