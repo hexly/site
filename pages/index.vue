@@ -22,7 +22,7 @@
               class="mb-md-5 mb-sm-3"
             >Gone are the days of paying for idle servers! Effortlessly scale to meet the demand of your distributors and customers.</p>
             <p>
-              <a href="#request-demo" class="btn btn-primary px-4 py-3">Request a Demo</a>
+              <a @click="buttonClicked('Top Demo Button')" href="#request-demo" class="btn btn-primary px-4 py-3">Request a Demo</a>
             </p>
           </div>
           <div class="one-half align-self-sm-center">
@@ -71,6 +71,7 @@
                       placeholder="email"
                       required
                       style="display: inline-block;"
+                      @blur="addressEntered"
                     >
                     <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
                     <div style="position: absolute; left: -5000px;" aria-hidden="true">
@@ -83,6 +84,7 @@
                     </div>
                     <div class="clear" style="display: inline-block; margin: 10px 0;">
                       <input
+                        @click="buttonClicked('Demo Requested')"
                         type="submit"
                         class="search-domain btn btn-primary px-5 button"
                         value="Request Demo!"
@@ -263,7 +265,7 @@
               <h2>
                 <img src="/hexly.png" style="width: 75px;">Hexly
               </h2>
-              <a href="#request-demo" class="mt-3 btn btn-primary p-3">Request a Demo</a>
+              <a @click="buttonClicked('Bottom Demo Button')" href="#request-demo" class="mt-3 btn btn-primary p-3">Request a Demo</a>
             </div>
           </div>
         </div>
@@ -281,6 +283,16 @@ export default {
   data () {
     return {
       year: new Date().getFullYear()
+    }
+  },
+  methods: {
+    buttonClicked(title){
+      this.$ga.event('Engagement', 'Button Click', title)
+    },
+    addressEntered(e){
+      if(e.target.value){
+        this.$ga.event('Engagement', `Text Added ${e.target.value}`, 'Email Address Entered')
+      }
     }
   }
 }
