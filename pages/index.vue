@@ -172,7 +172,7 @@
                 <span class="position">CEO // Naativ</span>
               </div>
             </div>
-          </div> -->
+          </div>-->
           <div class="item col-xs-12 col-lg-6">
             <div class="testimony-wrap p-4 pb-5">
               <div class="user-img mb-5" style="background-image: url(images/greenhorizen.jpg)">
@@ -181,7 +181,9 @@
                 </span>
               </div>
               <div class="text">
-                <p class="mb-5">I've been very impressed with how quickly Hexly has been able to jump in and make a difference for my company.</p>
+                <p
+                  class="mb-5"
+                >I've been very impressed with how quickly Hexly has been able to jump in and make a difference for my company.</p>
                 <p class="name">Mike Carlson</p>
                 <span class="position">CEO & Co-Founter // Green HoriZen</span>
               </div>
@@ -197,7 +199,7 @@
               <div class="text">
                 <p
                   class="mb-5"
-                >The team at Hexly is amazing. Not only are they extremely talented, but they are excellent to work with.</p>
+                >The team at Hexly is amazing. Not only are they extremely talented, but they are also excellent to work with.</p>
                 <p class="name">Nathan Guest</p>
                 <span class="position">President &amp; Co-Founder // Rave VIP</span>
               </div>
@@ -283,6 +285,15 @@ export default {
   data () {
     return {
       year: new Date().getFullYear()
+    }
+  },
+  mounted() {
+    if (process.client) {
+      window.CollectId = '5d03d0b56215ee0272a2ecd6'
+      const collectChat = document.createElement("script")
+      collectChat.setAttribute("src", "https://collectcdn.com/launcher.js")
+      collectChat.async = true
+      document.head.appendChild(collectChat)
     }
   },
   methods: {

@@ -3,7 +3,10 @@ module.exports = {
     title: 'Hexly | Direct Sales Platform | MLM Software',
     meta: [
       { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1, maximum-scale=1' },
+      {
+        name: 'viewport',
+        content: 'width=device-width, initial-scale=1, maximum-scale=1'
+      },
       {
         hid: 'description',
         name: 'description',
@@ -24,8 +27,6 @@ module.exports = {
         content: 'https://www.hexly.io/images/hexly_site.jpg'
       },
       { hid: 'og:image:type', name: 'og:image:type', content: 'image/jpeg' },
-      { hid: 'og:image:width', name: 'og:image:width', content: '400' },
-      { hid: 'og:image:height', name: 'og:image:height', content: '300' },
       {
         hid: 'og:image:alt',
         name: 'og:image:alt',
@@ -43,7 +44,5 @@ module.exports = {
       { rel: 'stylesheet', href: '/css/style.css' }
     ]
   },
-  modules: [
-    ['@nuxtjs/google-analytics', { id: 'UA-141809305-1' }]
-  ]
+  modules: [['@nuxtjs/google-analytics', { id: 'UA-141809305-1' }]]
 }
