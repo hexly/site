@@ -185,7 +185,7 @@
                   class="mb-5"
                 >I've been very impressed with how quickly Hexly has been able to jump in and make a difference for my company.</p>
                 <p class="name">Mike Carlson</p>
-                <span class="position">CEO & Co-Founter // Green HoriZen</span>
+                <span class="position">CEO & Co-Founder // Green HoriZen</span>
               </div>
             </div>
           </div>
