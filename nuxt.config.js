@@ -1,6 +1,6 @@
 module.exports = {
   head: {
-    title: 'Hexly | Direct Sales Platform | MLM Software',
+    title: 'Hexly | Private SaaS for Startups',
     meta: [
       { charset: 'utf-8' },
       {
@@ -11,7 +11,7 @@ module.exports = {
         hid: 'description',
         name: 'description',
         content:
-          "Hexly's platform provides an all-in-one solution for network marketing, direct sales, and party plan companies."
+          "Hexly provides an all-in-one private SaaS solution for startups and entrepreneurs."
       },
       { hid: 'og:title', name: 'og:title', content: 'Hexly' },
       { hid: 'og:type', name: 'og:type', content: 'website' },
@@ -19,7 +19,7 @@ module.exports = {
         hid: 'og:image',
         name: 'og:image',
         content:
-          "Hexly's platform provides an all-in-one solution for network marketing, direct sales, and party plan companies."
+          "Hexly provides an all-in-one private SaaS solution for startups and entrepreneurs."
       },
       {
         hid: 'og:image:secure_url',
