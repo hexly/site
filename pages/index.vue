@@ -15,12 +15,12 @@
         <div class="slider-text d-md-flex align-items-center">
           <div class="one-forth align-self-md-center">
             <h1 class="mb-4">
-              Direct Sales,
-              <br>Meet Serverless!
+              Private Saas
+              <br>For Entrepreneurs
             </h1>
             <p
               class="mb-md-5 mb-sm-3"
-            >Gone are the days of paying for idle servers! Effortlessly scale to meet the demand of your distributors and customers.</p>
+            >Integrate with best in class service providers and ffortlessly scale to meet the demand of your customers.</p>
             <p>
               <a @click="buttonClicked('Top Demo Button')" href="#request-demo" class="btn btn-primary px-4 py-3">Request a Demo</a>
             </p>
@@ -131,7 +131,7 @@
               </div>
               <div class="media-body p-2 mt-3">
                 <h3 class="heading">Innovation</h3>
-                <p>Bring tools and features to your field that will set you apart and help you build and keep momentum in your business.</p>
+                <p>Bring tools and features to your people that will set you apart and help you build and keep momentum in your business.</p>
               </div>
             </div>
           </div>
@@ -144,7 +144,7 @@
               </div>
               <div class="media-body p-2 mt-3">
                 <h3 class="heading">Insights</h3>
-                <p>Gain insights into your commission plan and drive the results that you want.</p>
+                <p>Gain insights form your business data and drive the results that you want.</p>
               </div>
             </div>
           </div>
@@ -226,7 +226,7 @@
                   <div class="one-half ml-md-5 align-self-center">
                     <h2 class="mb-4">Serverless</h2>
                     <p>
-                      Backed by the cloud, our serverless architecture allows Hexly's platform to provide greater scalability and quicker time to release—all at a reduced cost so you can run mean
+                      Backed by the cloud, a serverless architecture allows Hexly's platform to provide greater scalability and quicker time to release—all at a reduced cost so you can run mean
                       <em>and lean</em>.
                     </p>
                   </div>
@@ -238,8 +238,8 @@
                     <img src="images/dashboard_full_2.jpg" class="img-fluid border" alt>
                   </div>
                   <div class="one-half order-first mr-md-5 align-self-center">
-                    <h2 class="mb-4">Comp Engine</h2>
-                    <p>Our comp engine allows you to get into the details so that you and your sales field understand commission earnings.</p>
+                    <h2 class="mb-4">Integrations</h2>
+                    <p>You need flexibility to run your business the way you want to. Hexly's platform allows for easy integration to financial and communication services.</p>
                   </div>
                 </div>
               </div>
@@ -250,7 +250,7 @@
                   </div>
                   <div class="one-half ml-md-5 align-self-center">
                     <h2 class="mb-4">Tools</h2>
-                    <p>Our platform supports your sales field with a custom backoffice experience and an integrated e-commerce replicated site experience. Everything you need to run your direct sales company out of the box.</p>
+                    <p>Hexly supports your sales field with a custom dashboard experience. Everything you need to run your company out of the box.</p>
                   </div>
                 </div>
               </div>
