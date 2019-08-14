@@ -15,7 +15,7 @@
         <div class="slider-text d-md-flex align-items-center">
           <div class="one-forth align-self-md-center">
             <h1 class="mb-4">
-              Private Saas
+              Private SaaS
               <br>For Entrepreneurs
             </h1>
             <p
