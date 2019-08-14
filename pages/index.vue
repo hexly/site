@@ -20,7 +20,7 @@
             </h1>
             <p
               class="mb-md-5 mb-sm-3"
-            >Integrate with best in class service providers and ffortlessly scale to meet the demand of your customers.</p>
+            >Integrate with best in class service providers and effortlessly scale to meet the demand of your customers.</p>
             <p>
               <a @click="buttonClicked('Top Demo Button')" href="#request-demo" class="btn btn-primary px-4 py-3">Request a Demo</a>
             </p>
