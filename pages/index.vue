@@ -144,7 +144,7 @@
               </div>
               <div class="media-body p-2 mt-3">
                 <h3 class="heading">Insights</h3>
-                <p>Gain insights form your business data and drive the results that you want.</p>
+                <p>Gain insights from your business data and drive the results that you want.</p>
               </div>
             </div>
           </div>
