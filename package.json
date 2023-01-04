@@ -12,6 +12,6 @@
   "license": "ISC",
   "dependencies": {
     "@nuxtjs/google-analytics": "^2.2.0",
-    "nuxt": "^1.4.0"
+    "nuxt": "^3.0.0"
   }
 }
